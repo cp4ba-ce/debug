@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="momo" usingRuleflow="true" ruleflowName="New ruleflow" targetRuleProjectName="momo">
+  <name>momo</name>
+  <uuid>0e859945-7dd6-461b-8b2a-3e63eed19173</uuid>
+  <referencedVariables variableName="newVariable" variableSetName="New variable set" direction="IN_OUT">
+    <variableSet href="../rules/New%20variable%20set.var#fbd6a220-7e79-46dd-81a9-e54c3bd979d2"/>
+  </referencedVariables>
+  <ruleflow href="../rules/New%20ruleflow.rfl#cca4bcfd-d530-4ca8-a633-cb585eee57cd"/>
+  <targetRuleProject href="../../momo#ce306f8d-0fda-47b0-96ed-92b05f441c8c"/>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["momo-momo"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

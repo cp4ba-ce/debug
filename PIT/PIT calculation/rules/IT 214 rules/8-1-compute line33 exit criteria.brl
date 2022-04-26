@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>8-1-compute line33 exit criteria</name>
+  <uuid>a0de2a8b-9128-4614-8a9a-98c6905ca41a</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	(IT201 is null and IT201X is null and IT150 is null and IT150X is null) // 2?
+    or (the IT214-CR-DENIED-IND of scratchpad is Present)
+then
+   exit]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

@@ -1,0 +1,9 @@
+
+# Payload
+Payload#concept.label = payload
+Payload.Payload(java.util.List)#phrase.navigation = a new {payload} where {0, executed}
+Payload.addTo_executeds(java.lang.Long)#phrase.action = add {0} to the executeds of {this}
+Payload.clear_executeds()#phrase.action = clear the executeds of {this}
+Payload.executeds#phrase.action = set the executeds of {this} to {executed}
+Payload.executeds#phrase.navigation = {executed} of {this}
+Payload.removeFrom_executeds(java.lang.Long)#phrase.action = remove {0} from the executeds of {this}

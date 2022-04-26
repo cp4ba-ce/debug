@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>compute STD_ITZ_IND with IT196</name>
+  <uuid>6e13ae5c-8be1-4443-be25-c8e35e07e45d</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+    the value of the FS_CD of IT201 is not Married Filing Separate Return ( 3 ) and
+    (IT196 is null or the value of the NYS_ITZDED_AMT of IT196 is 0)
+then
+	set the value of the STD_ITZ_IND of IT201 to Standard ( 1 ) ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

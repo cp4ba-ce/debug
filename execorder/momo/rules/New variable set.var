@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>New variable set</name>
+  <uuid>fbd6a220-7e79-46dd-81a9-e54c3bd979d2</uuid>
+  <variables name="newVariable" type="Payload" initialValue="" verbalization="payload" jsonName=""/>
+</ilog.rules.studio.model.base:VariableSet>
